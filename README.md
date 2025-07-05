@@ -150,4 +150,7 @@ The core data analysis and visualization logic are derived from the `Python Anal
 *   **More Visualizations:** Expand the range of data visualizations and insights.
 *   **Error Handling & Logging:** Implement more robust error handling and comprehensive logging.
 
+## Demo View
+![Screenshot 2025-07-05 150916](https://github.com/user-attachments/assets/eccccd0b-db85-49f6-85dd-220508d679cf)
+
 ---
