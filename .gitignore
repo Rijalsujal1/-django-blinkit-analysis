@@ -38,6 +38,8 @@ static/
 .ipynb_checkpoints/
 *.ipynb
 
+
+
 # Misc
 *.csv
 *.pptx
