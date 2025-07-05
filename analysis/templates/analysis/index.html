@@ -1,4 +1,4 @@
-<!-- ✨ Blinkit-Themed Dashboard HTML (Colors Updated Only) -->
+<!-- ✨ Blinkit-Themed Dashboard HTML (Authentic Blinkit Colors) -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +13,7 @@
         }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #F5F5F5;
+            background: #F8F9FA;
             min-height: 100vh;
             padding: 20px;
         }
@@ -26,7 +26,7 @@
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
         }
         h1 {
-            color: #212121;
+            color: #0C831F;
             text-align: center;
             margin-bottom: 30px;
             font-size: 2.5em;
@@ -39,7 +39,7 @@
             margin-bottom: 40px;
         }
         .kpi-card {
-            background: linear-gradient(135deg, #84C225 0%, #5B7A0F 100%);
+            background: linear-gradient(135deg, #F8CB46 0%, #0C831F 100%);
             color: white;
             padding: 25px;
             border-radius: 15px;
@@ -75,7 +75,7 @@
             transform: translateY(-3px);
         }
         .chart-card h2 {
-            color: #212121;
+            color: #0C831F;
             margin-bottom: 15px;
             font-size: 1.3em;
             text-align: center;
@@ -176,7 +176,7 @@
             }
         };
 
-        const colors = ['#84C225', '#5B7A0F', '#FFD700', '#212121', '#F5F5F5', '#FFFFFF'];
+        const colors = ['#F8CB46', '#0C831F', '#FFD700', '#54B435', '#FFF3CD', '#E8F5E8'];
 
         const data = {
             fatContent: { labels: ['Low Fat', 'Regular'], data: [651, 550] },
@@ -224,8 +224,8 @@
                 datasets: [{ 
                     label: 'Sales (K)', 
                     data: data.years.data, 
-                    borderColor: colors[0], 
-                    backgroundColor: colors[0] + '20',
+                    borderColor: colors[1], 
+                    backgroundColor: colors[1] + '20',
                     fill: true,
                     tension: 0.4,
                     pointRadius: 6,
@@ -239,7 +239,7 @@
             type: 'pie',
             data: { 
                 labels: data.sizes.labels, 
-                datasets: [{ data: data.sizes.data, backgroundColor: [colors[0], colors[1], colors[2]], borderWidth: 2, borderColor: '#FFFFFF' }] 
+                datasets: [{ data: data.sizes.data, backgroundColor: [colors[0], colors[1], colors[3]], borderWidth: 2, borderColor: '#FFFFFF' }] 
             },
             options: chartConfig
         });
@@ -251,7 +251,7 @@
                 datasets: [{ 
                     label: 'Sales (K)', 
                     data: data.locations.data, 
-                    backgroundColor: colors.slice(0,3),
+                    backgroundColor: [colors[0], colors[1], colors[3]],
                     borderRadius: 8 
                 }] 
             },
